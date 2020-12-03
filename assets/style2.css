@@ -1,0 +1,101 @@
+#active a {
+    color: black;
+}
+
+#active li:hover {
+    background-color: yellow;
+    border-radius: 0.8rem;
+}
+
+#active a:hover {
+    color: black;
+}
+
+.bg-overlay {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./cab.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 850px;
+    padding-top: 50px;
+}
+
+#mid {
+    color: white;
+}
+
+#side {
+    width: 45%;
+    background-color: white;
+}
+
+#mid {
+    color: white;
+}
+
+#side {
+    margin-left: 200px;
+    width: 38%;
+    background-color: white;
+    height: auto;
+    border: 6px solid black;
+}
+
+footer .fa {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #mid {
+        color: white;
+    }
+    #side {
+        width: 90%;
+        background-color: white;
+        height: 65%;
+        border: 2px solid black;
+    }
+}
+
+#footer a {
+    color: white;
+}
+
+#book {
+    background-color: rgb(154, 205, 50);
+    color: white;
+    margin: 1px !important;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+.copyright a {
+    color: black;
+    font-weight: bolder;
+}
+
+#dropdownMenuLink a {
+    color: black;
+}
+
+.upper {
+    background-color: rgb(154, 205, 50);
+    opacity: 0.96;
+}
+
+footer {
+    background-color: yellowgreen;
+}
+
+#submits {
+    background-color: yellowgreen;
+}
