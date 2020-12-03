@@ -154,9 +154,9 @@ foreach ($location as $key => $row) {
                             </div>
                             <input type="text" class='w-100' name="price" id="Price" style="display:none;">
                             <input type="submit" class="btn btn-dark  pl-4 pr-4 mt-4 mx-auto w-100" name="submit" value='book'
-                                id="books" style="display:none;">
+                                id="books" style="background-color:rgb(154, 205, 50);display:none;">
                             <button class="btn btn-dark  pl-4 pr-4 mt-4 mx-auto w-100" value="Calculate Fare" id="submit"
-                                style="display:inline">Calculate
+                                style="background-color:rgb(154, 205, 50)">Calculate
                                 Fare</button>
                         </form>
                     </div>

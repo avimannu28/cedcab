@@ -115,8 +115,8 @@ foreach ($location as $key => $row) {
                                 <input type="text" class="form-control" placeholder="Luggage Weight" name="luggage" id="luggages">
                             </div>
                             <span id="fare" style="display:none;">Total fare $</span><input type="text" class='w-100' name="price" id="Price" style="display:none;">
-                            <input type="submit" class="btn btn-dark w-100  pl-4 pr-4 mt-4 w-100" name="submit"  value='book' id="books" style="display:none;">
-                            <button  class="btn btn-dark  pl-4 pr-4 mt-4 w-100" value="Calculate Fare" id="submit" >Calculate Fare</button>
+                            <input type="submit" class="btn btn-dark w-100  pl-4 pr-4 mt-4 w-100" name="submit" style="background-color:rgb(154, 205, 50);display:none;"  value='book' id="books" style="">
+                            <button  class="btn btn-dark  pl-4 pr-4 mt-4 w-100" value="Calculate Fare" style="background-color:rgb(154, 205, 50)" id="submit" >Calculate Fare</button>
                         </form>
 
 
