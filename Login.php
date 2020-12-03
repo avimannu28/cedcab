@@ -86,8 +86,8 @@ if (isset($_POST["submit"])) {
                                 <input type="password" class="form-control" placeholder="Password" name="password"
                                     required>
                             </div>
-                            <input type="submit" name="submit" class="btn btn-dark ml-4  px-5 pr-4 mt-4 float-left" value="LogIn">
-                            <a href="signup.php" class="btn btn-dark px-5 pr-4 mr-4 mt-4 float-right">SignUp</a>
+                            <input type="submit" name="submit" class="btn btn-dark ml-4  px-5 pr-4 mt-4 float-left" style="background-color:rgb(154, 205, 50)" value="LogIn">
+                            <a href="signup.php" class="btn btn-dark px-5 pr-4 mr-4 mt-4 float-right" style="background-color:rgb(154, 205, 50)">SignUp</a>
                         </form>
                     </div>
                         <div class="form-group text-center">

@@ -100,9 +100,9 @@ if (isset($_POST["submit"])) {
                                 <input type="password" class="form-control" placeholder="Password" name="password" required>
                             </div>
                             <p id="Price" class="text-center"></p>
-                            <input type="submit" class="btn btn-dark ml-5 pl-4 px-5 mt-4 text-center float-left" value="Sign In"
+                            <input type="submit" class="btn btn-dark ml-5 pl-4 px-5 mt-4 text-center float-left" style="background-color:rgb(154, 205, 50)" value="Sign In"
                                 name="submit">
-                                <a href="Login.php" class="btn btn-dark mr-5 pl-4 px-5 mt-4 float-right">Login</a>
+                                <a href="Login.php" class="btn btn-dark mr-5 pl-4 px-5 mt-4 float-right" style="background-color:rgb(154, 205, 50)">Login</a>
                         </form>
 
                     </div>
